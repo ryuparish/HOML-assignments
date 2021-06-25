@@ -1,0 +1,11 @@
+a) The shape of the input is m x 10, where m is the number of instances in
+the batch.
+
+b) The hidden layers weight matrix is a 10 x 50 matrix, with one vector
+having 10 weights (one per input value). The bias vector is 1 x 50.
+
+c) The output layers' weight matrix is a 50 x 3 matrix, with one vector having 50 weights (one per output value of the previous 50 unit layer). The bias vector is 1 x 3.
+
+d) m x 3, where once again m is the number of input instances.
+
+e) Y = (bo + (Wo x (bh + (Wh x X))))
